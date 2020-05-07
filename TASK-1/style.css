@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Dancing+Script:wght@700&display=swap');
+
+#reg-page {
+	background-image: url("flower-meadow.jpg");
+}
+
+#login {
+	background-image: url("mars.jpg");
+}
+
+.jumbotron-login {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 0.3rem;
+}
+
+.jumbotron-regpage {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 0.3rem;
+}
+
+.text {
+	color: rgb(220,220,220);
+	font-family: 'Baloo Bhaina 2', cursive;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+

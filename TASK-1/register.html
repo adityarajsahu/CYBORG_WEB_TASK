@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body id="reg-page">
+	<br><br><br>
+	<div class="container">
+		<div class="col"></div>
+    	<div class="col-8">
+      		<div class="jumbotron-regpage">
+			<form onsubmit="return check()">
+				  <div class="form-group">
+				    <label for="Name" class="text">Name</label>
+				    <input type="text" class="form-control" id="name" placeholder="Enter your name here" required="Please enter your name.">
+				  </div>
+				  <div class="form-group">
+				    <label for="email" class="text">E-Mail ID</label>
+				    <input type="email" class="form-control" id="email-reg" placeholder="Enter your E-Mail ID here" required="Please enter your E-Mail ID.">
+				  </div>
+				  <div class="form-group">
+				    <label for="Date_of_birth" class="text">Date of Birth</label>
+				    <input type="date" class="form-control" id="dob" required="Please enter your date of birth.">
+				  </div>
+				  <div class="form-group">
+				    <label for="RNo" class="text">Roll Number</label>
+				    <input type="text" class="form-control" id="rno" placeholder="Enter your Roll Number here" required="Please enter your Roll Number.">
+				  </div>
+				  <div class="form-group">
+				    <label for="Password1" class="text">Password</label>
+				    <input type="password" class="form-control" id="password1" placeholder="Enter Password" required="Please enter password.">
+				  </div>
+				  <div class="form-group">
+				    <label for="Password2" class="text">Re-enter Password</label>
+				    <input type="password" class="form-control" id="password2" placeholder="Re-enter Password" required="Please re-enter password">
+				  </div>
+				  <div>
+				  	<button type="submit" class="btn btn-outline-secondary">SIGN UP</button>
+				  </div>
+			</form>
+			</div>
+			<div class="jumbotron-regpage">
+				<h3>Already have an account? <a href="login.html">Log In</a></h3>
+			</div>	
+    	</div>
+    	<div class="col"></div>
+</body>
+</html>
