@@ -1,0 +1,38 @@
+
+.margin {
+  margin: 1.835rem !important;
+}
+
+.image-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 20rem !important;
+  word-wrap: break-word;
+  background-color: rgba(0,0,0,0.7);
+  background-clip: border-box;
+  border: 5px solid rgba(0, 0, 0, 0.25);
+}
+
+.image-card-text {
+	color: rgb(255,255,255);
+}
+
+.image-jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border: 2px solid rgb(0,0,0);
+  background-color: rgba(0,0,0,0.85);
+}
+
+.img-thumbnail-update {
+  padding: 0.25rem;
+  background-color: rgba(255,255,255,0.5);
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
